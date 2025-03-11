@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notediary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 style="font-style: italic;">Notediary</h1>
+
+        <div class="container">
+            <button id="newNoteButton">New Note</button>
+            <button id="pastNoteButton" style="margin-top: 20px;">Past Note</button>
+        </div>
+    </center>
+
+    <script>
+        document.getElementById('newNoteButton').onclick = function() {
+            window.location.href = 'add-note.html';
+        };
+
+        document.getElementById('pastNoteButton').onclick = function() {
+            window.location.href = 'pastNote.html';
+        };
+    </script>
+</body>
+
+</html>
