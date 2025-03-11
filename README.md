@@ -2,5 +2,5 @@
 - Back-end (REST API)
 - Front-end
 
-## Task 3 & 4:
+## Task 3:
 - Database migration to cloud
